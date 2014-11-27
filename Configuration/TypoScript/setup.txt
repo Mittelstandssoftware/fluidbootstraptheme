@@ -71,3 +71,8 @@ plugin.tx_vhs.settings.asset{
 		type = css
 	}
 }
+
+	css-blue {
+		path = EXT:fluidbootstraptheme/Resources/Public/Css/style-blue.css
+	}
+}

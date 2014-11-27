@@ -6,6 +6,30 @@
 		<body>
 			<!-- Content -->
 
+			<!-- Loginform.html -->
+            <trans-unit id="flux.loginform" xml:space="preserve">
+            	<source>Standart Loginform</source>
+            </trans-unit>
+            <trans-unit id="flux.loginform.description" xml:space="preserve">
+            	<source>Standart Loginform</source>
+            </trans-unit>
+            <trans-unit id="flux.loginform.sheets.loginform" xml:space="preserve">
+            	<source>Loginform</source>
+            </trans-unit>
+            <trans-unit id="flux.loginform.sections.loginform" xml:space="preserve">
+            	<source>Loginform</source>
+            </trans-unit>
+            <trans-unit id="flux.loginform.objects.loginform" xml:space="preserve">
+            	<source>Loginform</source>
+            </trans-unit>
+            <trans-unit id="flux.loginform.objects.loginform.user" xml:space="preserve">
+            	<source>Loginform User</source>
+            </trans-unit>
+            <trans-unit id="flux.loginform.objects.loginform.password" xml:space="preserve">
+            	<source>Loginform Passwort</source>
+            </trans-unit>
+            <!-- /Loginform.html -->
+
 			<!-- Accordion.html -->
 			<trans-unit id="flux.accordion" xml:space="preserve">
 				<source>Accordion with content elements</source>

@@ -1,0 +1,44 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+     xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+     xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+    <f:layout name="Content" />
+
+    <f:section name="Configuration">
+        <flux:form id="loginform" options="{useTypoScript: 0, group: 'Bootstrap', icon: '{f:uri.resource(path: \'Icons/bootstrap/glyphicons_113_justify.png\')}'}">
+            <flux:form.sheet name="loginform">
+                <flux:form.section name="loginform">
+                </flux:form.section>
+            </flux:form.sheet>
+        </flux:form>
+    </f:section>
+
+    <f:section name="Main">
+        <div class="border-login">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Login</div>
+                <div class="panel-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="email">Email-Adresse:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email eingeben">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Passwort:</label>
+                            <input type="password" class="form-control" id="password" placeholder="Passwort">
+                            <div class="checkbox">
+                                <label style="padding-top: 8px"><input type="checkbox">Login merken</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-ar btn-primary">Einloggen</button>
+                        <div class="pull-right">
+                            <button type="button" class="btn btn-ar btn-info">Registrieren</button>
+                        </div>
+                        <a href="#">Passwort vergessen</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </f:section>
+</div>
